@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "title": "skincare",
+        "title": "Skincer 50gr",
         "category": "facial",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-        "price": "15.000"
+        "description": "Gracias a su fórmula ultra hidratante mantiene la humedad, promueve la hidratación epidérmica y aumenta la cohesión celular. Además, evita la descamación y previene el envejecimiento.",
+        "pictureUrl": "/src/assets/skincer.png",
+        "price": "11.350"
     },
     {
         "id": 2,
-        "title": "skincare",
+        "title": "Espuma de limpieza",
         "category": "facial",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-        "price": "15.000"
+        "description": "Espuma de limpieza con válvula, limpia la piel en profundidad y permite una mejor absorción de activos.",
+        "pictureUrl": "/src/assets/espuma.png",
+        "price": "16.50"
     },
     {
         "id": 3,
-        "title": "skincare",
+        "title": "Protector solar FPS 50",
         "category": "facial",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-        "price": "15.000"
+        "description": "Protector solar facial factor 50 sin color, protege contra rayos UVB/UVA",
+        "pictureUrl": "/src/assets/fusionwater.png",
+        "price": "20.000"
     },
     {
         "id": 4,
-        "title": "skincare",
-        "category": "corporal",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-        "price": "15.000"
+        "title": "Aceite de limpieza",
+        "category": "facial",
+        "description": "Disuelve y elimina las impurezas, el maquillaje y sebo facial recuperando la frescura del rostro protegiendo la hidratación de la barrera dérmica.",
+        "pictureUrl": "/src/assets/cleanoil.png",
+        "price": "15.270"
     },
     {
         "id": 5,
-        "title": "skincare",
+        "title": "Hidratante corporal",
         "category": "corporal",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-        "price": "15.000"
+        "description": "Crema hidratante corporal con urea, pantenol y aceite de almendras para una mejor emoliencia de la piel",
+        "pictureUrl": "/src/assets/dermaglos.png",
+        "price": "9.900"
     },
     {
         "id": 6,
-        "title": "skincare",
+        "title": "Protector solar FPS 50",
         "category": "corporal",
-        "description": "lalala",
-        "pictureUrl": "http://dummyimage.com/223x100.png/ff4444/ffffff",
+        "description": "Factor de protector solar 50 para el cuerpo, promueve la protección contra rayos UVB/UVA.",
+        "pictureUrl": "/src/assets/protectorcorporal.png",
         "price": "15.000"
     }
 ]

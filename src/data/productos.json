@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "skincare",
+        "category": "facial",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+        "price": "15.000"
+    },
+    {
+        "id": 2,
+        "title": "skincare",
+        "category": "facial",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+        "price": "15.000"
+    },
+    {
+        "id": 3,
+        "title": "skincare",
+        "category": "facial",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+        "price": "15.000"
+    },
+    {
+        "id": 4,
+        "title": "skincare",
+        "category": "corporal",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+        "price": "15.000"
+    },
+    {
+        "id": 5,
+        "title": "skincare",
+        "category": "corporal",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+        "price": "15.000"
+    },
+    {
+        "id": 6,
+        "title": "skincare",
+        "category": "corporal",
+        "description": "lalala",
+        "pictureUrl": "http://dummyimage.com/223x100.png/ff4444/ffffff",
+        "price": "15.000"
+    }
+]

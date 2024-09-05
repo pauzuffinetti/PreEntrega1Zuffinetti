@@ -24,7 +24,14 @@ export const Provider = ({children}) => {
     }
    };
 
+   const removeItem = (id) => {
+    const filter = items.filter(i => i.id !== id);
+    setItems(filter);
+   }
+
    console.log(items);
 
-    return <ItemsContext.Provider value={{ addItem, items, reset }}>{children}</ItemsContext.Provider>;
+    return (
+    <ItemsContext.Provider value={{ addItem, items, removeItem, reset }}>{children}</ItemsContext.Provider>
+    );
 }

@@ -4,6 +4,8 @@ import App from './App.jsx'
 import { initializeApp } from "firebase/app";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
+import { useContext } from 'react';
+import { ItemsContext } from './contexts/ItemsContext.jsx';
 
 const firebaseConfig = {
   apiKey: "AIzaSyA5LwP39kHnI4gXT2uxwQQLZNnxdMavJek",

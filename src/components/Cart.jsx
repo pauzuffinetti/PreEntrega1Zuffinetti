@@ -58,7 +58,7 @@ export const Cart = () => {
                     <h1>{item.title}</h1>
                     <img src={item.imageId} height={200} />
                     <p>{item.quantity}</p>
-                    <p onClick={() => removeItem(item.id)}>X</p>
+                    <p onClick={() => removeItem(item.id)}>Eliminar</p>
                 </div>
             );
         })}

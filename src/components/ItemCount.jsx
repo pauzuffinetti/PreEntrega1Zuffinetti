@@ -8,7 +8,7 @@ export const ItemCount = ( {onAdd, stock} ) => {
     }
 
     const handleDecrease = () => {
-        if(count > 1) setCount(prev => prev + 1);
+        if(count > 1) setCount(prev => prev - 1);
     }
 
     const handleAdd = () => {

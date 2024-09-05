@@ -10,7 +10,7 @@ export const CartWidget = () => {
     const quantity = items.reduce((acc, act) => acc+act.quantity, 0)
     return (
         <Link to="/cart">
-            <img src={cart} height={28}/>
+            <img src={cart} height={28} />
             <span>{quantity}</span>
         </Link>
 

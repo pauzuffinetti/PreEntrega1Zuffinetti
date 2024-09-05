@@ -31,13 +31,13 @@ export const ItemDetailsContainer = () => {
       addItem({ ...item, quantity });
      }
 
-     if(loading) return "wait";
+     if(loading) return "loading...";
 
     return (
     <Container className="mt-4">
         <h1>{item.title}</h1>
         <h2>{item.categoryId}</h2>
-        <img src={item.imageId} height={200} />
+        <img src={item.imageId} ald={item.title} height={200} />
         <br />
         <br />
         <b>${item.price}</b>

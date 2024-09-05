@@ -1,4 +1,45 @@
+body {
+    background-color: rgba(253, 225, 225, 0.548);
+}
 span{
-    color: pink;
+    color: rgb(253, 153, 170);
     padding: 0.8rem
+}
+
+input, button {
+    margin: 5px;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 45px;
+    color: rgb(253, 153, 170);
+}
+
+h2{
+    font-size: 28px;
+    color: rgb(250, 209, 216);
+}
+
+h3{
+    font-size: 16px;
+    color: rgb(231, 175, 184);
+    font-style: italic;
+}
+
+b{
+color: rgb(255, 134, 154);
+font-weight: 800;
+}
+
+.mt-4{
+
+    padding: 20px;
+    border: 1px solid rgba(255, 183, 183, 0.13);
+}
+
+img {
+    height: 0 auto;
+    border-radius: 8px;
 }

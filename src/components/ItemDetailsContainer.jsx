@@ -37,12 +37,16 @@ export const ItemDetailsContainer = () => {
     <Container className="mt-4">
         <h1>{item.title}</h1>
         <h2>{item.categoryId}</h2>
-        <h3>{item.description}</h3>
-        <img src={item.imageId} height={200} /> <br />
+        <img src={item.imageId} height={200} />
+        <br />
+        <br />
         <b>${item.price}</b>
+        <h3>{item.description}</h3>
         <br/>
-        <b>{item.stock}</b>
+        <div>
+        <b>{item.stock} </b>
         <ItemCount stock={item.stock} onAdd={onAdd}/>
+        </div>
         </Container>
         );
 };

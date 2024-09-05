@@ -34,7 +34,7 @@ getDocs(ref)
 }, [id]);
 
 
-    if(loading) return "wait";
+    if(loading) return " wait";
 
     return <Container className="mt-4 d-flex"  style={{gap: '8px'}} >
         {items.map((i) => (
